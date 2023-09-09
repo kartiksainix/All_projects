@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pswdG.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div id="display">
+                <input class="print" type="text" id="pass-box" name="password" readonly="true" value="Testing">
+            </div>
+            <div class="choices">
+                <ul>
+                    <li class="items">
+                        <label class="heading" for="total-char">Password Length</label>
+                        <input class="inpt" id="total-char" type="number" name="" min="3" max="20" value="8">
+                    </li>
+                    <li class="items">
+                        <label class="heading" for="uppercase">Contains Uppercase</label>
+                        <input class="inpt chkbx" type="checkbox" name="" id="upper-case" checked>
+                    </li>
+                    <li class="items">
+                        <label class="heading" for="lowercase">Contains Lowercase</label>
+                        <input class="inpt chkbx" type="checkbox" name="" id="lower-case">
+                    </li>
+                    <li class="items">
+                        <label class="heading" for="numbers">Contains Numbers</label>
+                        <input class="inpt chkbx" type="checkbox" name="" id="numbers">
+                    </li>
+                    <li class="items">
+                        <label class="heading" for="symbols">Contains Symbols</label>
+                        <input class="inpt chkbx" type="checkbox" name="" id="symbols">
+                    </li>
+                </ul>
+            </div>
+            <div class="generateButton">
+                <button id="btn">Generate</button>
+            </div>
+        </div>
+    </div>
+    <script src="passGen.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Poppins:wght@400;500&family=Quicksand:wght@500&family=Rajdhani&family=Space+Grotesk:wght@400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg,rgb(16, 151, 255),rgb(13, 133, 193),rgb(48, 101, 179),rgb(4, 97, 220));
+}
+
+#search{
+    width: 100%;
+    display: flex;
+    align-items: center ;
+    margin: 15px;
+    /* margin: auto; */
+}
+
+#search-box{
+    margin: auto;
+    width: 500px;
+    border-radius: 40px;
+    height: 60px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.info{
+    /* margin: auto; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    margin: 15px;
+    /* margin-top: 2px; */
+}
+
+.info img{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+.temp{
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    padding: 15px;
+}
+
+.temp h2{
+    font-size: 50px;
+}
+
+.commnDiv{
+    margin: auto;
+    width: 100%;
+}

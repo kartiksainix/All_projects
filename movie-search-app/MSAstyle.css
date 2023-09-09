@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Poppins:wght@400;500&family=Quicksand:wght@500&family=Rajdhani&family=Space+Grotesk:wght@400;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: black;    
+}
+
+.row{
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.box{
+    margin: 10px;
+    flex-basis: 20%;
+    width: 20%;
+    height: 480px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+}
+
+.box img{
+    width: 100%;
+    height: 100%;
+}
+
+.overlay{
+    /* margin: 0; */
+    background-color: white;
+    max-height: 100%;
+    min-height: auto;
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+    transition: 0.5s;
+    position: absolute;
+    bottom: -100%;
+    width: 100%
+}
+
+.box span{
+    color: orange;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box:hover .overlay{
+    bottom: 0%;
+}
+
+.overlay h2{
+    margin-bottom: 10px;
+}
+
+#search-box{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 200px;
+}
+
+#search{
+    width: 500px;
+    padding: 5px 30px;
+    outline: none;
+    border: none;
+    font-size: 30px;
+    border-radius: 25px;
+    transition: 1s;
+    margin: auto;
+}

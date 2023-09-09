@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Poppins:wght@400;500&family=Quicksand:wght@500&family=Rajdhani&family=Space+Grotesk:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #00a2ff;
+}
+
+.card{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+    width: 45%;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+}
+
+.li-it{
+    list-style-type: none;
+    height: 70px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 15px;
+    background-color: aliceblue;
+}
+
+.label{
+    padding-left: 18px;
+}
+
+.ques{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 70px;
+    border: 2px solid black;
+    padding-top: 20px;
+    padding-left: 15px;
+    background: #8400ff;
+    color: aliceblue;
+}
+.submit{
+    height: 70px;
+    border: 2px solid black;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    background: #00ff4c;
+}
+
