@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Poppins:wght@400;500&family=Quicksand:wght@500&family=Rajdhani&family=Space+Grotesk:wght@400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: aliceblue;
+    color: black;
+}
+
+.booklist{
+    width: 90vw;
+    max-width: 1170px;
+    margin: 5rem auto;
+    display: grid;
+    gap: 2rem;
+}
+
+@media screen and (min-width: 768px){
+    .booklist{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.book{
+    background: rgb(149, 197, 245);
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+}
+
+.book img{
+    width: 100%;
+    object-fit: cover;
+    margin: 0px;
+    border-radius: 20px;
+}
+
+.book h2{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.book span{
+    position: absolute;
+    background-color: rgb(202, 75, 1);
+    top: 0;
+    left: 0;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+    color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    margin-top: 60px;
+    text-transform: capitalize;
+}
